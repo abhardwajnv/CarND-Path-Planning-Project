@@ -37,7 +37,7 @@ You are reading it!
 
 ### 1. The car is able to drive at least 4.32 miles without incident.
 
-With my current implementation Car is able to drive 9.33Miles in the simulator without any incidents.
+With my current implementation Car is able to drive 21.60Miles in the simulator without any incidents.
 Check below image for Reference:
 
 ![alt text][image1]
@@ -58,12 +58,12 @@ Following is the code snippet from main.cpp showing initialization of lane and s
 
 ### 3. Max Acceleration and Jerk are not Exceeded. The car does not exceed a total acceleration of 10 m/s^2 and a jerk of 10 m/s^3.
 
-Acceleration and Jerks does not exceed the specified limits for the full run of 9.33Miles in simulator.
+Acceleration and Jerks does not exceed the specified limits for the full run of 21.60Miles in simulator.
 
 
 ### 4. Car does not have collisions. The car must not come into contact with any of the other cars on the road.
 
-No Collisions observed upto 9.33Miles run while drive or lane switch.
+No Collisions observed upto 21.60Miles run while drive or lane switch.
 
 
 ### 5. The car stays in its lane, except for the time between changing lanes. The car does not spend more than a 3 second length out side the lane lanes during changing lanes, and every other time the car stays inside one of the 3 lanes on the right hand side of the road.
