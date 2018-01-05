@@ -114,7 +114,7 @@ Following is the code snippet from main.cpp showing the logic.
               else
               {
                 lane_switch = estimate_switch(lane_switch, sensor_fusion, lane-1, prev_size, car_s);
-                if(!lane_switch)
+                if(lane_switch)
                 {
                   lane-=1;
                 }
