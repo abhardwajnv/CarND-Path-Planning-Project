@@ -17,7 +17,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 [image1]: ./output/full_run.png
-[image2]: ./output/lane_switch.png
+[image2]: ./output/lane_switch1.png
+[image3]: ./output/lane_switch2.png
 
 ---
 ## [Rubric](https://review.udacity.com/#!/rubrics/1020/view) Points
@@ -36,7 +37,7 @@ You are reading it!
 
 ### 1. The car is able to drive at least 4.32 miles without incident.
 
-With my current implementation Car is able to drive 10 Miles in the simulator without any incidents.
+With my current implementation Car is able to drive 9.33Miles in the simulator without any incidents.
 Check below image for Reference:
 
 ![alt text][image1]
@@ -57,12 +58,12 @@ Following is the code snippet from main.cpp showing initialization of lane and s
 
 ### 3. Max Acceleration and Jerk are not Exceeded. The car does not exceed a total acceleration of 10 m/s^2 and a jerk of 10 m/s^3.
 
-Acceleration and Jerks does not exceed the specified limits for the full run of 10 Miles in simulator.
+Acceleration and Jerks does not exceed the specified limits for the full run of 9.33Miles in simulator.
 
 
 ### 4. Car does not have collisions. The car must not come into contact with any of the other cars on the road.
 
-No Collisions observed in the 10 Miles run while drive or lane switch.
+No Collisions observed upto 9.33Miles run while drive or lane switch.
 
 
 ### 5. The car stays in its lane, except for the time between changing lanes. The car does not spend more than a 3 second length out side the lane lanes during changing lanes, and every other time the car stays inside one of the 3 lanes on the right hand side of the road.
@@ -126,6 +127,7 @@ Complete Code for this step can be found in main.cpp under main function.
 Check below image reference for visualization of lane change.
 
 ![alt text][image2]
+![alt text][image3]
 
 
 ## References:
