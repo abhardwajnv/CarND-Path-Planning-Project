@@ -175,9 +175,11 @@ bool estimate_switch(bool lane_switch, vector<vector<double>> sensor_fusion, int
 			check_car_s += ((double)prev_size * .02 * check_speed);
 			
 			// Check for s-gap and set lane_switch
-			if ((check_car_s - car_s) < 30)
+			//if ((check_car_s - car_s) < 30)
+			if((check_car_s > car_s) && ((check_car_s-car_s) < 30))
 			{
 				lane_switch = false;
+				break;
 			}
 		}
 	}
@@ -327,7 +329,7 @@ int main() {
                     else
                     {
                       lane_switch = estimate_switch(lane_switch, sensor_fusion, lane-1, prev_size, car_s); // Check if lane change is safe
-                      if(!lane_switch)
+                      if(lane_switch)
                       {
                         lane-=1; // Switch to left lane.
                       }
